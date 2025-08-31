@@ -42,14 +42,15 @@ export async function LoginWithCLI(snake: Snake): Promise<Raw.users.UserFull | u
 
   if (!(snake._options.login.session as unknown as Storages.AbstractSession).authKey) {
     // Langsung login userbot tanpa opsi lain
-    const user = await snake._client.start({
-      phoneNumber: AskPhoneNumber,
-      password: AskPassword,
-      recoveryCode: AskRecoveryCode,
-      code: AskOTPCode,
-      firstname: AskFirstName,
-      lastname: AskLastName,
-    });
+  const user = await snake._client.start({
+  phoneNumber: await AskPhoneNumber(),
+  password: AskPassword,
+  recoveryCode: AskRecoveryCode,
+  code: AskOTPCode,
+  firstname: AskFirstName,
+  lastname: AskLastName,
+});
+
 
     Logger.log(
       `${
@@ -174,4 +175,5 @@ async function AskLastName(): Promise<string> {
   );
   return String(value);
                                     }
+
 
