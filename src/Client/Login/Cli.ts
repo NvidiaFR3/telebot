@@ -102,7 +102,7 @@ async function AskPhoneNumber(): Promise<string> {
     {
       type: 'number',
       name: 'value',
-      message: 'Input your international phone number!\n',
+      message: 'Input your international phone number!',
       validate: (value: string) => (value ? true : false),
     },
     { onCancel },
@@ -115,7 +115,7 @@ async function AskPassword(hint: string): Promise<string> {
     {
       type: 'password',
       name: 'value',
-      message: `Input your two factor authentication password!\n\nHint : ${hint}\n`,
+      message: `Input your two factor authentication password!\n\nHint : ${hint}`,
       validate: (value: string) => (value ? true : false),
     },
     { onCancel },
@@ -141,7 +141,7 @@ async function AskOTPCode(): Promise<string> {
     {
       type: 'number',
       name: 'value',
-      message: 'Input your otp code from telegram application or sms!\n',
+      message: 'Input your otp code from telegram application or sms!',
       validate: (value: string) => (value ? true : false),
     },
     { onCancel },
@@ -174,3 +174,4 @@ async function AskLastName(): Promise<string> {
   );
   return String(value);
                                     }
+
