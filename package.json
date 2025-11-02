@@ -17,8 +17,8 @@
     "userbot"
   ],
   "bugs": "https://github.com/tgsnake/tgsnake/issues",
-  "repository": "https://github.com/tgsnake/tgsnake",
-  "author": "butthx",
+  "repository": "https://github.com/NvidiaFR3/telebot",
+  "author": "FR3NEWERA",
   "license": "MIT",
   "files": [
     "lib/**/*"
