@@ -1,7 +1,6 @@
-![tgsnakeicon]
-tgsnake is a modern MTProto framework for javascript or typescript.  
-[![github-repo](https://img.shields.io/badge/Github-tgsnake-blue.svg?style=for-the-badge&logo=github)](https://github.com/tgsnake/tgsnake) [![telegram-chat](https://img.shields.io/badge/Telegram-Chat-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/fr3newera)  
-[![telegram-channel](https://img.shields.io/badge/Telegram-Channel-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/tgsnake)
+FR3NEWERA X TGSNAKE is a modern MTProto framework for javascript or typescript.  
+[![github-repo](https://img.shields.io/badge/Github-tgsnake-blue.svg?style=for-the-badge&logo=github)](https://github.com/NvidiaFR3) [![telegram-chat](https://img.shields.io/badge/Telegram-Chat-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/fr3newera)  
+[![telegram-channel](https://img.shields.io/badge/Telegram-Channel-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/fr3newera_channel)
 
 Don't forget to read our FAQ in our site!!
 
