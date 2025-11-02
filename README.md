@@ -34,8 +34,8 @@ bot.on('msg.text', (ctx) => {
 More example you can found in our website.
 
 ### Contribution
-
-Welcome, You can contribute to this project.
+- FR3NEWERA
+- TGSNAKE
 
 ### Reference
 
@@ -48,4 +48,4 @@ Welcome, You can contribute to this project.
 
 Thanks to all the frameworks and references that I use, several people who helped in developing this framework that I cannot mention one by one.
 
-Build with ♥️ by [tgsnake dev](https://t.me/tgsnakechat).
+Build with ♥️ by [FR3NEWERA](https://t.me/fr3newera).
